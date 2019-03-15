@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin</title>
+    <link href="resoruces/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resoruces/css/simple-sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class=" border-right " id="sidebar-wrapper">
+            <div class="sidebar-heading"><img width="200px" src="https://www.cofopri.gob.pe/media/1217/logotipo-cofopri.gif" /></div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                Modulo 1
+                  </a>
+                <a class="list-group-item list-group-item-action" href="index-2.html">
+                    Modulo 2
+                </a>
+                <a href="#" class="list-group-item list-group-item-action"> Modulo 3</a>
+                <a href="#" class="list-group-item list-group-item-action"> Modulo 4</a>
+            </div>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper" style="background-image: url('resoruces/img/fondo_blanco_01.jpg'); background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */">
+
+            <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
+                <button class="btn btn-primary" id="menu-toggle"><i class="fas fa-align-left"></i></button>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-ellipsis-v"></span>
+        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                User
+              </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Salir</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Configuracion</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-fluid">
+                <h1 class="mt-4">MENU</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis molestias soluta deserunt? Iusto ea facilis, blanditiis corrupti dolor reprehenderit accusamus officiis, sapiente, provident omnis doloribus magnam. Recusandae possimus
+                    vero impedit. Qui animi alias sequi consectetur nulla voluptate similique ipsum, eius facere voluptas, totam deserunt sint quo corrupti. Molestiae pariatur veniam laudantium. Debitis, minima. Mollitia nam similique aut fugiat, tempore
+                    reprehenderit suscipit totam dolor molestiae ipsam ratione dicta consequatur, nisi error temporibus cupiditate! Tenetur commodi tempora doloremque natus perferendis, sint repudiandae odit assumenda quo labore atque corporis consequuntur
+                    iure adipisci aliquid, modi tempore perspiciatis excepturi incidunt blanditiis. Et at optio nobis impedit sint dolorum facilis neque laudantium natus eius architecto, a, quidem animi sequi! Incidunt eaque ipsa magnam dicta quibusdam
+                    architecto, nihil soluta aspernatur laborum ullam sint mollitia. Adipisci, recusandae vero eos dicta veniam, error dolor delectus vel incidunt dolorem numquam sunt nulla, fuga consectetur non eligendi qui cumque accusantium modi?</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="resoruces/js/jquery.min.js"></script>
+    <script src="resoruces/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>
